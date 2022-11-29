@@ -1,4 +1,4 @@
-# Nome do meu projeto
+# Alura Plus
 
 Rápida descrição do objetivo de fazer esse projeto
 
