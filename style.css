@@ -1,0 +1,17 @@
+@import url(css/cabecalho.css);
+@import url(css/principal.css);
+@import url(css/rodape.css);
+
+:root {
+  --branco:#ffffff;
+  --azul: #167BF7;
+  --inter: 'Inter', sans-serif;
+  --cinza: #C0C0C0;
+
+
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #000000;
+}

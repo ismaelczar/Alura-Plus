@@ -1,0 +1,114 @@
+.videos {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.videos_titulo {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--branco);
+}
+
+.videos_texto {
+  font-size: 16px;
+  color: var(--cinza);
+  margin-top: 1em;
+}
+
+.videos_container {
+  display: flex;
+  flex-direction: column;
+  width: 588px;
+  position: relative;
+}
+
+.videos_celular {
+  position: absolute;
+  z-index: 1;
+  width: 227px;
+  top: 51%;
+}
+
+.assinatura_combo {
+  display: flex;
+  margin-top: 8em ;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.assinatura_combo--texto {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--cinza);
+  width: 588px;
+}
+
+.combo_botao {
+  margin-top: 1em;
+  background-color: var(--azul);
+  padding: 1em;
+  border-radius: 8px;
+
+}
+
+.combo_botao::placeholder {
+  font-size: 16px;
+  color: var(--cinza);
+  text-align: center;
+}
+
+.cursos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8em 0 4em 0;
+}
+
+.cursos_container {
+  width: 588px;
+}
+
+.cursos_titulo {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--branco);
+}
+
+.cursos_texto {
+  font-size: 16px;
+  line-height: 24px;
+  color:var(--cinza);
+  margin-top: 1em;
+  
+}
+
+.dispositivos_titulo {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--branco);
+  text-align: center;
+  margin: 6em 0 1em 0;
+}
+
+.lista_de_dispositivos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista_link {
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--branco);
+  margin-top: 2em;
+}

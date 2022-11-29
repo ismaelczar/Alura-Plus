@@ -1,0 +1,58 @@
+header {
+  background-image: url(../img/Background.svg);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  width: 588px;
+}
+
+.cabecalho_titulo {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--branco);
+  width: 588px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.cabecalho_combo {
+  margin: 3em 2em;
+  padding: 0 2em;
+
+}
+
+.botao_assinatura {
+  background-color: var(--azul);
+  font-weight: 400;
+  font-size: 16px;
+  padding: 1em;
+  border-radius: 8px;
+  text-align: center;
+  margin: 1.5em 0 0.5em 3em;
+}
+
+.botao_assinatura::placeholder{
+  color: var(--branco);
+  font-size: 16px;
+}
+
+.assinatura_individual {
+  background-color: transparent;
+  padding: 1em;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  margin-left: 3em;
+  text-align: center;
+}
+
+.cabecalho_texto {
+  font-size: 12px;
+  color:var(--cinza);
+  text-align: center;
+  margin: 0.5em;
+
+}
